@@ -1,0 +1,279 @@
+ /*genrall*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.containar{
+    width: 90%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.clr{
+    clear: both;
+}
+/*start-part 1*/
+.part-1{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 120%;
+    height: 100vh;
+    position: relative;
+ }
+.part-1 img{
+    float: left;
+    width: 180px;
+    margin: 13px;
+}
+.part-1 ul{
+    list-style: none;
+    padding: 10px;
+    float: right;
+    margin: 5px;
+}
+.part-1 li{
+    margin: 10px;
+    float: left;
+}
+.part-1 li:hover a{
+    border-bottom: 2px solid rgb(184, 90, 3);
+    font-size: 22px;
+    color: rgb(220, 155, 95);
+}
+.part-1 .active{
+    border-bottom: 2px solid rgb(184, 90, 3);
+    color: rgb(220, 155, 95);
+}
+.part-1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    float: left;
+    margin: 7px;
+}
+.disc{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 24%;
+    color: white;
+}
+.disc h1{
+    font-size: 70px;
+    margin: 10px;
+}
+.disc p{
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 1.1em;
+}
+.disc .btn-1{
+    margin: 10px;
+    padding: 7px;
+   font-size: 25px;
+   background-color: rgb(130, 100, 62);
+   color: white;
+   border: 2px solid rgb(130, 100, 62);
+}
+.disc .btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.disc .btn-2{
+    margin: 10px;
+    padding: 7px;
+   font-size: 25px;
+   background: none;
+   color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.disc .btn-2:hover{
+    background-color: white;
+    color: black;
+}
+/*👍end-part 1👍*/
+.part-2{
+    position: relative;
+}
+.part-2 .img{
+    display: inline-block;
+    margin-top: 50px;
+    width: 48%;
+}
+.part-2 img{
+    width: 100%;
+    padding: 10px;
+}
+.disc-2{
+    display: inline-block;
+    margin-left: 60px;
+    width: 45%;
+    position: absolute;
+    top: 130px;
+    right: -4px;
+}
+.disc-2 h2{
+    font-size: 31px;
+    color: rgb(95, 94, 94);
+}
+.disc-2 p{
+    margin: 10px;
+    color: rgb(87, 85, 85);
+    line-height: 1.86em;
+}
+.part-2 ul{
+    list-style: none;
+}
+.part-2 i{
+    color:  #8e7754;
+   margin: 10px;
+   font-size: 25px;
+}
+.part-2 span{
+    color: rgb(87, 85, 85);
+    font-size: 18px;
+}
+/*👍end-part 2👍*/
+.part-3{
+    background-color: rgb(245, 243, 243);
+    margin-top: 37px;
+}
+.part-3 .disc-3{
+    float: left;
+    width: 48%;
+}
+.part-3 .disc-3 h2{
+    font-size: 31px;
+    color: rgb(95, 94, 94);
+    margin-top: 100px;
+}
+.disc-3 p{
+    margin: 10px;
+    color: rgb(87, 85, 85);
+    line-height: 1.86em;
+}
+.part-3 .img-3{
+    display: inline-block;
+    width: 47%;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 18px;
+}
+.part-3 img{
+    width: 100%;
+}
+/*👍end-part 3👍*/
+.disc-4{
+    margin: 50px;
+    text-align: center;
+}
+.disc-4 h2{
+    color: rgb(60, 59, 59);
+    font-size: 31px;
+}
+.disc-4 p{
+    margin: 10px;
+    color: rgb(87, 85, 85);
+}
+.images-4{
+    display: inline-block;
+    width: 32%;
+}
+.child-images{
+    margin: 10px;
+}
+.child-images img{
+    width: 100%;
+}
+.child-images h2{
+    text-align: center;
+    color: rgb(73, 72, 72);
+    font-size: 27px;
+    margin: 12px;
+}
+.child-images p{
+    text-align: center;
+    color: rgb(87, 85, 85);
+    line-height: 1.86em;
+}
+/*👍end-part 4👍*/
+.part-5{
+    background-color: rgb(245, 243, 243);
+    margin-top: 37px;
+    position: relative;
+}
+.disc-5{
+    display:inline-block;
+    width: 48%;
+    margin: 30px;
+}
+.disc-5 h2{
+    margin-top: 50px;
+    margin-bottom:30px ;
+    color: rgb(73, 72, 72);
+    font-size: 27px;
+}
+.disc-5 p{
+    color: rgb(87, 85, 85);
+    line-height: 1.86em;
+}
+.item-icon-5 i{
+    color:  #8e7754;
+    margin: 10px;
+    font-size: 25px;
+}
+.item-icon-5 span{
+    color: rgb(87, 85, 85);
+    font-size: 18px;
+}
+.part-5 img{
+   position: absolute;
+   margin-top: 20px;
+   width: 40%;
+}
+/*👍end-part 5👍*/
+.contact{
+background-color: #373532;
+}
+.disc-6{
+   float: left;
+    width: 22%;
+    margin: 15px;
+}
+.disc-6 h2{
+    color: rgb(208, 203, 203);
+    font-size: 20px;
+   margin-top: 20px;
+    margin-bottom: 20px;
+}
+.disc-6 p{
+    color: rgb(119, 117, 117);
+    line-height: 1.86em; 
+}
+.navgation span , i{
+    color: rgb(119, 117, 117);
+}
+.navgation li{
+    margin-top: 16px;
+}
+.footer{
+    width: 100%;
+    height: 220px;
+   background-color: #483d2d;
+   text-align: center;
+}
+.footer img{
+    margin-top: 30px;
+}
+.footer i{
+   font-size: 26px;
+   margin: 3px;
+}
